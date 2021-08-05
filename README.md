@@ -6,6 +6,10 @@ Windows DOS batch script which will remove contents of folder every N (e.g 14) d
 
 The batch script is run in the background using a Virtual Basic script: run_bg_purge_timer.vbs
 
+## Version
+
+3.1 (2020-09-21)
+
 ## Classification?:
 
 The PurgeTimer script is to be deployed onto a clinical server that holds patient data (specifically DICOM files). The script itself is not performing any calculation nor is making changes to the patient data. It is meant to purge files that are older than a specified data and have been further processed backed up already.
