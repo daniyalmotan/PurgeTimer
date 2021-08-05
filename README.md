@@ -10,6 +10,10 @@ The batch script is run in the background using a Virtual Basic script: run_bg_p
 
 3.1 (2020-09-21)
 
+## Developer
+
+Tuathan O’Shea, Scientific Computing, MPBE, UCLH, mpbit.uclh@nhs.net
+
 ## Classification?:
 
 The PurgeTimer script is to be deployed onto a clinical server that holds patient data (specifically DICOM files). The script itself is not performing any calculation nor is making changes to the patient data. It is meant to purge files that are older than a specified data and have been further processed backed up already.
